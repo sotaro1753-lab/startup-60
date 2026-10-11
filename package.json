@@ -1,0 +1,22 @@
+{
+  "name": "startup-60",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "preview": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts StartupExplainer out/startup-60.mp4 --codec h264",
+    "build": "remotion compositions src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.350",
+    "remotion": "^4.0.350",
+    "@remotion/google-fonts": "^4.0.350",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.0",
+    "@types/react": "^19.0.0",
+    "@types/node": "^22.0.0"
+  }
+}
